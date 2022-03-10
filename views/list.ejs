@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<body style="background-color:powderblue;">
+  <head>
+    <title>List page</title>
+  </head>
+    <h1 style="color:gray;"><center> Recipes</center> </h1>
+          <body>
+            <h3>You can see all of the full recipes here:</h3>
+	    <a href='./'><button>Home</button></a>
+	    <a href='./addrecipe'><button>Help expand our recipe list</button></a>
+            <ul>
+              <% availablerecipes.forEach(function(recipe){ %>
+              <li>Recipe Name: <%= recipe.name %> Ingredients:  <%= recipe.ingredients %> Method:  <%= recipe.method %> Created By:  <%= recipe.userid %></li>
+             <% }) %>
+            </ul>
+  </body>
+</html>

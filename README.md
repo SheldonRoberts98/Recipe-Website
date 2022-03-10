@@ -1,0 +1,17 @@
+1.My project is a node.js app created by myself
+2.Home Page is present, contains buttons to all other pages and is rendered on line 19 (main.js)
+3.register page exists and works, found on line 53 and 104(main.js)
+4. login page is present and works(password checking doesnt fully work so the user can login aslong as the username is in the database) found on line 71 and 203(main.js)
+5.addrecipe page exits only works for logged in users and stores name, ingredients, method and user id found on line 59 and 142(main.js)
+6. update recipe page works only for logged in users, foundline 66 and 181(main.js)
+7. delete recipe page works only for logged in users, found line 61 and 163(main.js)
+8.list page lists all recipes and the user who uploaded it found on line 76(main.js)
+9. email has validation line 107 and 118 password sanitized(main.js)
+10.feedback messages after each process(main.js)
+11.mongodb database called recipebank, has 2 collections (users and recipes) and works with the program. Users contains username, password,hashedpassword and recipes contains name,ingredients, method and userid
+12.both create and update recipes use forms, (see addrecipe.html and updaterecipe.html files)
+13.login process uses sessions ,line 225(main.js)
+14.passwords stored as hashed ,line 129(main.js)
+15.logout works ,line 94(main.js)
+16.api with clear button ,line 238(main.js)
+17.all pages have links (see all html files)
